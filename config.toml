@@ -1,0 +1,102 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Emotions in Drama'
+author = 'Sarah Kurek'
+theme = 'bootstrap-bp-hugo-theme'
+
+[Author]  
+  name = "Sarah Kurek"
+
+[params]
+    startPageColumns = true
+    alwaysExpandMenu = true
+    hideReadingTime = true
+    # themeColor = 'light'
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        contentDir = "content/english"
+        title = "Emotions in Drama"
+        weight = 1
+        
+        [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 10
+        pre = "<i class='fas fa-clipboard'></i>"
+        
+        [[languages.en.menu.main]]
+            identifier = "news"
+            name = "News"
+            url = "/news/"
+            weight = 20
+            pre = "<i class='fas fa-newspaper'></i>"
+            
+        [[languages.en.menu.main]]
+            identifier = "team"
+            name = "Team"
+            url = "/team/"
+            weight = 30
+            pre = "<i class='fas fa-address-card'></i>"
+            
+        [[languages.en.menu.main]]
+            identifier = "publications"
+            name = "Publications"
+            url = "/publications/"
+            weight = 40
+            pre = "<i class='fas fa-file'></i>"
+
+
+        [[languages.en.menu.footer]]
+            identifier = "Imprint"
+            name = "Imprint"
+            url = "/imprint/"
+            weight = 10
+    
+    
+    [languages.de]
+        languageName = "Deutsch"
+        contentDir = "content/german"
+        title = "Emotionen in Dramen"
+        weight = 2
+        
+        [languages.de.menu]
+        [[languages.de.menu.main]]
+            identifier = "ueber"
+            name = "Über"
+            url = "/über/"
+            weight = 10
+    
+        [[languages.de.menu.main]]
+            identifier = "neues"
+            name = "Neues"
+            url = "/neues/"
+            weight = 20
+            
+        [[languages.de.menu.main]]
+            identifier = "autoren"
+            name = "Team"
+            url = "/autoren/"
+            weight = 30
+
+        [[languages.de.menu.main]]
+            identifier = "publikationen"
+            name = "Publikationen"
+            url = "/publikationen/"
+            weight = 40
+            
+        [[languages.de.menu.footer]]
+            identifier = "impressum"
+            name = "Impressum"
+            url = "/impressum/"
+            weight = 10
+
+
+[[cascade]]
+    background = ''
+    [cascade._target]
+        kind = 'page'
+        lang = 'en'
+        path = '/posts/*'
