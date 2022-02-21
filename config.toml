@@ -36,9 +36,9 @@ disableLanguages = 'de'
             pre = "<i class='fas fa-address-card'></i>"
             
         [[languages.en.menu.main]]
-            identifier = "publications"
-            name = "Publications"
-            url = "/publications/"
+            identifier = "peer reviewed publications"
+            name = "Peer Reviewed Publications"
+            url = "/peer_reviewed_publications/"
             weight = 30
             pre = "<i class='fas fa-file'></i>"
 
