@@ -1,17 +1,17 @@
-baseURL = ''
-languageCode = 'en-us'
+baseURL = 'https://emotionsindrama.github.io/'
+# languageCode = 'en-us'
 title = 'Emotions in Drama'
-author = 'Sarah Kurek'
+author = 'Thomas Schmidt and Sarah Kurek'
 theme = 'bootstrap-bp-hugo-theme'
+enableInlineShortcodes = true
+disableLanguages = 'de'
 
 [Author]  
-  name = "Sarah Kurek"
+  name = "Thomas Schmidt and Sarah Kurek"
 
 [params]
-    startPageColumns = true
     alwaysExpandMenu = true
     hideReadingTime = true
-    # themeColor = 'light'
 
 [languages]
     [languages.en]
@@ -26,36 +26,56 @@ theme = 'bootstrap-bp-hugo-theme'
         url = "/about/"
         weight = 10
         pre = "<i class='fas fa-clipboard'></i>"
-        
-        [[languages.en.menu.main]]
-            identifier = "news"
-            name = "News"
-            url = "/news/"
-            weight = 20
-            pre = "<i class='fas fa-newspaper'></i>"
+    
             
         [[languages.en.menu.main]]
             identifier = "team"
             name = "Team"
             url = "/team/"
-            weight = 30
+            weight = 20
             pre = "<i class='fas fa-address-card'></i>"
             
         [[languages.en.menu.main]]
             identifier = "publications"
             name = "Publications"
             url = "/publications/"
+            weight = 30
+            pre = "<i class='fas fa-file'></i>"
+
+        [[languages.en.menu.main]]
+            identifier = "tab1"
+            name = "Tab1"
+            url = "/tab1/"
             weight = 40
+            pre = "<i class='fas fa-file'></i>"
+
+        [[languages.en.menu.main]]
+            identifier = "tab2"
+            name = "Tab2"
+            url = "/tab2/"
+            weight = 50
+            pre = "<i class='fas fa-file'></i>"
+
+        [[languages.en.menu.main]]
+            identifier = "tab3"
+            name = "Tab3"
+            url = "/tab3/"
+            weight = 60
             pre = "<i class='fas fa-file'></i>"
 
 
         [[languages.en.menu.footer]]
-            identifier = "Imprint"
+            identifier = "imprint"
             name = "Imprint"
-            url = "/imprint/"
+            url = "https://www.uni-regensburg.de/impressum/startseite/index.html"
             weight = 10
-    
-    
+
+        [[languages.en.menu.footer]]
+            identifier = "privacy"
+            name = "Privacy"
+            url = "https://www.uni-regensburg.de/datenschutz/startseite/index.html"
+            weight = 20
+
     [languages.de]
         languageName = "Deutsch"
         contentDir = "content/german"
@@ -64,39 +84,39 @@ theme = 'bootstrap-bp-hugo-theme'
         
         [languages.de.menu]
         [[languages.de.menu.main]]
-            identifier = "ueber"
-            name = "Über"
-            url = "/über/"
+            identifier = "info"
+            name = "Info"
+            url = "/de/info/"
             weight = 10
-    
-        [[languages.de.menu.main]]
-            identifier = "neues"
-            name = "Neues"
-            url = "/neues/"
-            weight = 20
             
         [[languages.de.menu.main]]
             identifier = "autoren"
-            name = "Team"
-            url = "/autoren/"
-            weight = 30
+            name = "Autoren"
+            url = "/de/autoren/"
+            weight = 20
 
         [[languages.de.menu.main]]
             identifier = "publikationen"
             name = "Publikationen"
-            url = "/publikationen/"
-            weight = 40
+            url = "/de/publikationen/"
+            weight = 30
             
         [[languages.de.menu.footer]]
             identifier = "impressum"
             name = "Impressum"
-            url = "/impressum/"
+            url = "https://www.uni-regensburg.de/impressum/startseite/index.html"
+            weight = 10
+
+        [[languages.de.menu.footer]]
+            identifier = "datenschutz"
+            name = "Datenschutz"
+            url = "https://www.uni-regensburg.de/datenschutz/startseite/index.html"
             weight = 10
 
 
-[[cascade]]
-    background = ''
-    [cascade._target]
-        kind = 'page'
-        lang = 'en'
-        path = '/posts/*'
+[social]
+  # Social Links with corresponding Icons
+  # for further options see https://github.com/spech66/bootstrap-bp-hugo-theme#social-icons
+
+  twitter          = "search?q=%23EmoDrama&src=typed_query&f=live"
+  # github           = ""

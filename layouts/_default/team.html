@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div class="container mt-3 mb-3">
+    {{ $paginator := .Paginate ( where .Site.RegularPages.ByWeight "Type" "!=" "page") }}
+
+    <div class="row row-cols-2 g-4">
+        {{ range $paginator.Pages }}
+        {{- partial "team_card.html" . -}}
+        {{ end }}
+    </div>
+
+    {{ template "_internal/pagination.html" . }}
+</div>
+
+{{ end }}
