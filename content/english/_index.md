@@ -1,11 +1,14 @@
 ---
-title: "Home"
+title: "Emotions in Drama"
 date: 2021-08-23T11:50:12+02:00
 draft: false
 ---
 
-TEST
+This is the official website of the research project "Emotions in Drama"
+(Emotionen im Drama) or short: <b>EmoDrama</b>.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+Emotions in Drama is funded by the German Research Foundation (DFG) and part of the priority programme SPP 2207 Computational Literary Studies (CLS) for three years. (Project number 424207618 , Research Grants DE 2188/3-1 und WO 835/4-1).
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+For more information visit the <a href="https://emotionsindrama.github.io/about/">about page</a>.
+
+<a href="https://dfg-spp-cls.github.io">Website of the priority prgramme SPP 2207 Computational Literary Studies</a>
