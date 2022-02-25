@@ -13,6 +13,6 @@ For more information visit the [about page](URL "https://emotionsindrama.github.
 
 You can find more information information about the priority programme on the [website of the priority prgramme SPP 2207 Computational Literary Studies](URL "https://dfg-spp-cls.github.io").
 
-{{< figure src="/SPPCLS.jpeg" title="SPP_CLS_Logo" height="100px" width="100px" >}}
+{{< figure src="/SPPCLS.jpeg">}}
 
-{{< figure src="/DFG.jpeg" title="DFG_Logo" height="10%" width="10%" >}}
+{{< figure src="/DFG.jpeg"">}}
