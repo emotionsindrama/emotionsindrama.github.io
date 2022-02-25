@@ -12,4 +12,7 @@ Emotions in Drama is funded by the German Research Foundation (DFG) and part of 
 
 For more information visit the [about page](URL "https://emotionsindrama.github.io/about/").
 
-[Website of the priority prgramme SPP 2207 Computational Literary Studies](URL "https://dfg-spp-cls.github.io")
+You can find more information information about the priority programme on the [website of the priority prgramme SPP 2207 Computational Literary Studies](URL "https://dfg-spp-cls.github.io").
+
+## Image
+{{< figure src="/SPPCLS.jpg" title="SPP_CLS_Logo" >}}
