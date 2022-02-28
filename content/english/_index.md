@@ -13,6 +13,6 @@ For more information visit the test [about page](URL "https://emotionsindrama.gi
 
 You can find more information information about the priority programme on the [website of the priority prgramme SPP 2207 Computational Literary Studies](URL "https://dfg-spp-cls.github.io").
 
-{{< figure src="/SPPCLS.jpeg">}}
+[{{< figure src="/SPPCLS.jpeg">}}](URL "https://dfg-spp-cls.github.io")
 
 {{< figure src="/DFG.jpeg">}}
