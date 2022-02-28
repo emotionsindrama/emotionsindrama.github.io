@@ -15,4 +15,4 @@ You can find more information information about the priority programme on the [w
 
 {{< figure src="/SPPCLS.jpeg">}}
 
-{{< figure src="/DFG.jpeg"">}}
+{{< figure src="/DFG.jpeg">}}
