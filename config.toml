@@ -27,7 +27,14 @@ disableLanguages = 'de'
         weight = 10
         pre = "<i class='fas fa-clipboard'></i>"
     
-            
+    
+        [[languages.en.menu.main]]
+            identifier = "annotation"
+            name = "Annotation"
+            url = "/annotation/"
+            weight = 20
+            pre = "<i class='fas fa-address-card'></i>"
+
         [[languages.en.menu.main]]
             identifier = "team"
             name = "Team"
