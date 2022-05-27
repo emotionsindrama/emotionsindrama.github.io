@@ -20,55 +20,7 @@ disableLanguages = 'de'
         title = "Emotions in Drama"
         weight = 1
         
-        [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about/"
-        weight = 10
-        pre = "<i class='fas fa-clipboard'></i>"
-    
-    
-        [[languages.en.menu.main]]
-            identifier = "annotation"
-            name = "Annotation"
-            url = "/annotation/"
-            weight = 20
-            pre = "<i class='fas fa-address-card'></i>"
-
-        [[languages.en.menu.main]]
-            identifier = "team"
-            name = "Team"
-            url = "/team/"
-            weight = 20
-            pre = "<i class='fas fa-address-card'></i>"
-            
-        [[languages.en.menu.main]]
-            identifier = "peer reviewed publications"
-            name = "Peer Reviewed Publications"
-            url = "/peer_reviewed_publications/"
-            weight = 30
-            pre = "<i class='fas fa-file'></i>"
-
-        [[languages.en.menu.main]]
-            identifier = "tab1"
-            name = "Tab1"
-            url = "/tab1/"
-            weight = 40
-            pre = "<i class='fas fa-file'></i>"
-
-        [[languages.en.menu.main]]
-            identifier = "tab2"
-            name = "Tab2"
-            url = "/tab2/"
-            weight = 50
-            pre = "<i class='fas fa-file'></i>"
-
-        [[languages.en.menu.main]]
-            identifier = "tab3"
-            name = "Tab3"
-            url = "/tab3/"
-            weight = 60
-            pre = "<i class='fas fa-file'></i>"
+        
 
 
         [[languages.en.menu.footer]]
